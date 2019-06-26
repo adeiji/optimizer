@@ -63,7 +63,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4A4ED7422C3BB6A0080C79C = {
+		F47FC50822C3C28D0023D90D /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				F4A4ED8E22C3BD1A0080C79C /* Constants.swift */,
@@ -83,7 +83,15 @@
 				F4A4ED9D22C3BD1B0080C79C /* GRViewWithTableView.swift */,
 				F4A4ED9722C3BD1B0080C79C /* UtilityFunctions.swift */,
 				F4A4ED8C22C3BC800080C79C /* NotificationExtensions.swift */,
-				F4A4ED8922C3BC220080C79C /* Cards */,
+				F4A4ED8A22C3BC220080C79C /* GRCard.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F4A4ED7422C3BB6A0080C79C = {
+			isa = PBXGroup;
+			children = (
+				F47FC50822C3C28D0023D90D /* Source */,
 				F4A4ED8022C3BB6A0080C79C /* Optimizer */,
 				F4A4ED7F22C3BB6A0080C79C /* Products */,
 			);
@@ -104,14 +112,6 @@
 				F4A4ED8222C3BB6A0080C79C /* Info.plist */,
 			);
 			path = Optimizer;
-			sourceTree = "<group>";
-		};
-		F4A4ED8922C3BC220080C79C /* Cards */ = {
-			isa = PBXGroup;
-			children = (
-				F4A4ED8A22C3BC220080C79C /* GRCard.swift */,
-			);
-			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
