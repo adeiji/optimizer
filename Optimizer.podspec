@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Optimizer"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Optimizer is a framework used to quickly build iOS applications by providing simple built in networking and UI solutions."
 
   # This description is used to generate tags and improve search results.
